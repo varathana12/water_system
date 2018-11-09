@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 require('dotenv').load();
 var env = process.env
-const database = new Sequelize('shuttle_bus', env.DB_USER, env.DB_PASS, {
+const database = new Sequelize('SBS', env.DB_USER, env.DB_PASS, {
     host: env.DB_HOST,
     dialect: 'postgres',
     operatorsAliases: false,
